@@ -17,8 +17,10 @@ public class take_input {
     System.out.print(w8);
     System.out.println(" kg.");
 
+    sc.nextLine();
+
     System.out.print("Input your name: ");
-    String name = sc.next();
+    String name = sc.nextLine();
     System.out.print("Your name is ");
     System.out.print(name);
     System.out.print(".");
